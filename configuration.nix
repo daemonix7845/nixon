@@ -36,6 +36,8 @@ in
     }
    (import "${home-manager}/nixos")
     ./hardware-configuration.nix
+    ./nixos-manager/services.nix
+    ./nixos-manager/packages.nix
     ./.
 
      (let

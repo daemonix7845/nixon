@@ -152,7 +152,7 @@
           DisplayMenuBar = "default-off"; # alternatives: "always", "never" or "default-on"
           SearchBar = "unified"; # alternative: "separate"
           ExtensionSettings = {
-            "*".installation_mode = "blocked";
+            "*".installation_mode = "allowed";
             # uBlock Origin:
             "uBlock0@raymondhill.net" = {
               install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
